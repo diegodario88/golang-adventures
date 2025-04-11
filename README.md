@@ -1,6 +1,6 @@
 # Golang Adventures
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL-blue.svg)](https://opensource.org/licenses/MIT)
 [![Go Version](https://img.shields.io/badge/Go-1.24+-blue.svg)](https://go.dev/)
 [![GitHub Issues](https://img.shields.io/github/issues/diegodario88/golang-adventures.svg)](https://github.com/diegodario88/golang-adventures/issues)
 [![GitHub PRs](https://img.shields.io/github/issues-pr/diegodario88/golang-adventures.svg)](https://github.com/diegodario88/golang-adventures/pulls)
