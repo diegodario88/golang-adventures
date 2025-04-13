@@ -1,0 +1,17 @@
+services:
+  headless-chrome:
+    image: chromedp/headless-shell:latest
+    ports:
+      - "9222:9222"
+    restart: always
+
+  pdf-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    depends_on:
+      - headless-chrome
+    environment:
+      - CHROME_HOST=headless-chrome
